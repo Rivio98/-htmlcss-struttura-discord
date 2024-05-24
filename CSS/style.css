@@ -4,14 +4,39 @@
     box-sizing: border-box;
 }
 
-.container {
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
     background-color: lightblue;
-    display: flex;
-    height: 100px;
+    height: 70px;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
 }
 
 .row {
-    background-color: rgba(255, 225, 0, 0.838);
-    justify-content: center;
-    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sinistra {
+    width: 25%;
+}
+
+.centro {
+    width: 50%;
+    text-align: center;
+}
+
+.destra {
+    width: 25%;
+    text-align: right;
+}
+
+.colonna {
+    background-color: yellow;
 }
