@@ -13,6 +13,7 @@ header {
     height: 60px;
 }
 
+/* Classi  principali struttura */
 .container {
     height: 100%;
     width: 1200px;
@@ -27,23 +28,41 @@ header {
     align-items: center;
 }
 
-/* Stile colonne */
-.sinistra {
+/* Stile colonne header */
+.left {
     width: 25%;
 }
 
-.centro {
+.center {
     width: 50%;
     text-align: center;
 }
 
-.destra {
+.right {
     width: 25%;
     text-align: right;
 }
 
-.colonna {
+.column {
     background-color: #DAA521;
     padding: 5px;
-    border: 1px dotted black;
+    border: dashed 2px black;
+}
+
+/* Main */
+.col {
+    height: 200px;
+}
+
+.bg-darkblue {
+    background-color: #00008B;
+}
+
+.col-100 {
+    width: 90%;
+    height: 300px;
+    margin: 10px;
+    background-color: #EE81EE;
+    border: dashed 2px black;
+}
 }
