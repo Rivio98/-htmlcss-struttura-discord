@@ -9,20 +9,25 @@ body {
 }
 
 header {
-    background-color: lightblue;
-    height: 70px;
+    background-color: #ADD8E6;
+    height: 60px;
 }
 
 .container {
+    height: 100%;
     width: 1200px;
-    margin: 0 auto;
+    margin: 0px auto;
+    display: flex;
 }
 
 .row {
+    width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
 }
 
+/* Stile colonne */
 .sinistra {
     width: 25%;
 }
@@ -38,5 +43,7 @@ header {
 }
 
 .colonna {
-    background-color: yellow;
+    background-color: #DAA521;
+    padding: 5px;
+    border: 1px dotted black;
 }
