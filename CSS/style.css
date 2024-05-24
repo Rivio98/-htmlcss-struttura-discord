@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: lightblue;
+    display: flex;
+    height: 100px;
+}
+
+.row {
+    background-color: rgba(255, 225, 0, 0.838);
+    justify-content: center;
+    align-items: center;
+}
