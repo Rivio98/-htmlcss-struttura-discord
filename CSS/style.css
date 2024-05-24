@@ -50,19 +50,37 @@ header {
 }
 
 /* Main */
-.col {
-    height: 200px;
-}
-
+/* first row */
 .bg-darkblue {
     background-color: #00008B;
 }
 
-.col-100 {
-    width: 90%;
+.column-100 {
+    width: 80%;
     height: 300px;
-    margin: 10px;
+    margin: 20px;
     background-color: #EE81EE;
+    border: dashed 2px black;
+}
+
+/* second row */
+.bg-white {
+    background-color: white;
+}
+
+.column-75 {
+    width: 75%;
+    height: 300px;
+    margin: 20px 0;
+    background-color: #1D90FF;
+    border: dashed 2px black;
+}
+
+.column-25 {
+    width: 25%;
+    height: 300px;
+    margin: 20px 0;
+    background-color: #FFBFCB;
     border: dashed 2px black;
 }
 }
