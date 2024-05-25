@@ -22,6 +22,7 @@ header {
 }
 
 .row {
+    padding: 30px 0;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -58,7 +59,6 @@ header {
 .column-100 {
     width: 80%;
     height: 300px;
-    margin: 20px;
     background-color: #EE81EE;
     border: dashed 1px black;
 }
@@ -72,11 +72,14 @@ header {
     background-color: #D3D3D3;
 }
 
+.bg-black {
+    background-color: #23272A;
+}
+
 /* column size and color */
 .column-65 {
     width: 65%;
     height: 300px;
-    margin: 20px 0;
     background-color: #1D90FF;
     border: dashed 1px black;
 }
@@ -84,16 +87,31 @@ header {
 .column-35 {
     width: 35%;
     height: 300px;
-    margin: 20px 0;
     background-color: #FFBFCB;
     border: dashed 1px black;
 }
 
-/* last column width 100% but double height */
+/*column width 100% but double height */
 .tall-column {
     width: 100%;
     height: 600px;
-    margin: 20px 0;
     border: dashed 1px black;
     background-color: #238B21;
+}
+
+/* columns value 1 and 2 */
+.column-value1 {
+    width: 40%;
+    height: 400px;
+    background-color: #F08080;
+    border: dashed 1px black;
+    margin-top: -10px;
+}
+
+.column-value2 {
+    width: 15%;
+    height: 400px;
+    background-color: #20B2AA;
+    border: dashed 1px white;
+    margin-top: -10px;
 }
